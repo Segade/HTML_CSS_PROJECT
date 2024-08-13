@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">    
+
+<head>
+<title>
+Casa Oliveira | Reviews
+</title>
+<meta charset='utf-8'>
+<meta name="author" content="Ivan Segade Carou">
+
+<meta name="keywords" content="B&B, bed, accomodation, Praia Aguieira, Porto do Son, Barbanza, Galicia, Espana, Spain, breakfast, holiday, airport Santiago de Compostela, golf, surfing, fishing, beach">
+<meta name="description" content="Stylish B&B on Praia Aguieira, Galicia, Spain">
+
+
+
+
+<LINK REL=StyleSheet HREF="CSS/estilos.css" TYPE="text/css" >
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"> 
+<!-- end favicon-->
+
+
+
+<script src="distancecalc.js"></script>
+<script>
+function getLocation()
+	{
+ 
+	if (navigator.geolocation)
+	{
+	navigator.geolocation.getCurrentPosition(showPosition);
+	}
+	else 
+	{
+	document.getElementById("demo").innerHTML="GEO location is no supported by this browser";
+	}
+	}
+
+function showPosition(position)
+	{	
+	document.getElementById("demo").innerHTML= "Latutud: " + position.coords.latitude + "<br> Longitude: "+ position.coords.longitude;	
+	}
+
+function success(position)
+{
+document.getElementById('visitus').style.display= 'block';
+document.getElementById('coordlat').innerHTML= position.coords.latitude;
+document.getElementById('coordlong').innerHTML= position.coords.longitude;
+document.getElementById('distance2').innerHTML= getDistanceFromLatLonInKm(42.7422061,-8.977399, position.coords.latitude, position.coords.longitude);
+}
+
+	 
+
+</script> 
+
+
+   
+  </head>
+
+  <body>
+<div class="container"> 
+<header> 
+<div class="logo">     
+ 
+<picture>
+  <source media="(min-width:769px)" srcset="images/logo_pc.jpg">
+  <source media="(min-width:577px)" srcset="images/logo_tablet.jpg"> 
+  <img src="images/logo_sm_phone.jpg" alt="logo, an olive tree branch"> 
+</picture> 
+</div>
+
+<div class="property">   
+<h1> 
+Casa Oliveira
+</h1> 
+
+<div class="menu">
+<nav>
+<ul class="menuli">
+<li><a href="index.html">HOME </a> </li>
+<li><a href="reservations.html"> RESERVATIONS & AVAILABILITY </a> </li>
+<li><a href="amenities.html"> AMENITIES & SERVICES </a>  </li>
+ 
+<li><a href="arrangements.html">ARRANGEMENTS</a>  </li>
+<li><a href="reviews.html"> REVIEWS </a>  </li>
+ 
+</ul>
+</nav>
+</div> <!-- menu -->
+
+
+</div> <!-- property -->
+
+
+
+</header>
+
+<div class="content">
+
+
+<div class="main main_reviews">
+
+
+<article class="myreviews">
+<h3>Reviews</h3>
+<br> <br>
+<div class="myreview">
+<p>
+We stayed at casa oliveira in August 2019 for one week with our two children. We enjoyed the host excellent hospitality with hearty breakfasts and coffee and churros available throughout the day. We would highly recommended this B&B.
+</p>
+
+<p class="review_name">Mr. and Mrs. Jones, London, UK. 9 September 2019. </p>
+</div>
+
+<div class="myreview">
+<p>
+My esposa y yo estuvimos aqui en 2019. La acogida fue estupenda y nos mostraron toda la belleza de la zona, que es mucha. La comarca esta llena de sitios de gran valor paisajistico, y montes llenos de vida.
+</p>
+<p class="review_name">
+Senor Carlos Fernandez Gonzalez, Rio ulla, Madrid. 10 Mai 2019.
+</p>
+</div>
+
+<div class="myreview">
+<p>
+Lovely view from our bedroom window of the sea. Excellent facilities, chic and stylish. Woudl happily stay again.
+</p>
+<p class="review_name">
+Mr. and Mrs. McDonald. San Francisco, California, US. 6 June 2020.
+</p >
+</div>
+
+</article> <!-- myreviews -->
+
+
+
+
+<div class="social">
+<h3>Social Media </h3>
+<br> <br>
+ 
+<p> 
+Check the activities the council offers.
+</p>
+ 
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0" nonce="7HgoQmMl"></script>
+ 
+<div class="fb-page" data-href="https://www.facebook.com/culturaportodoson" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/culturaportodoson" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/culturaportodoson">Concello de Porto do Son</a></blockquote></div>
+<br> <br>
+ 
+<p> 
+Tweet me on
+</P>
+ 
+<a href="https://twitter.com/intent/tweet?screen_name=secaiv&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @secaiv</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+ 
+ 
+</div>
+
+
+<div class="geoloc">
+<h3>Geolocation</h3>
+<br> <br>
+
+<button onclick="getLocation()">try it </button>
+<p id="demo"> </p>
+<button onclick="navigator.geolocation.getCurrentPosition(success);">Distance</button>
+ 
+<p id="visitus"></p>
+<p>You are <span id="distance2">0</span> mi from Aguieira </p>
+<p>Your current lat is: <span id="coordlat">0</span>
+Your current long is: <span id="coordlong">0</span>
+</p>
+
+
+ </div>
+</div> <!-- main -->
+
+</div> <!-- content -->
+
+ 
+<footer>
+<div class="foot_text">
+<p> 
+Address: <span class="casa">Casa Oliveira</span>, Praia Aguieira, Porto do Son, 
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+A Coru&ntilde;a, Espa&ntilde;a 15345.
+<br>
+Proprietor: Ivan Segade Carou
+ 
+</p>
+</div>
+
+<div class="foot_flag">
+<p>
+Phone: +34981133487 
+<br>
+Mobile: +34676027830 
+<br>
+Email: <a href="mailto:info@casaoliveira.gal?cc=ivan.segadecarou@students.ittralee.ie&Subject=Contact%20WebPage%20request">info@casaoliveira.gal</a>
+</p>
+ </div>
+
+ </footer>
+ 
+ </div>
+</body>
+</html> 
